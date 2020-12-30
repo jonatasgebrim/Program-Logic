@@ -1,0 +1,19 @@
+início {
+    inteiro: idade;
+    leia("Idade ", idade);
+    
+    //lógico: r;
+    //r = idade < 0;
+    caractere: categoria;
+    
+    se (idade < 0 ) {
+       categoria = " Idade  Invalida";  } 
+        senão se (idade <13) {
+        categoria = " Crianca"; }
+         senão se (idade <18) {
+        categoria = " Adolescente"; }
+       senão {
+      categoria = " adulto"; }
+    
+    escreva (categoria);
+}

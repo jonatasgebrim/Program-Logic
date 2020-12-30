@@ -1,0 +1,16 @@
+início {
+    inteiro: t;
+    leia("tabuada do...", t);
+    
+    inteiro: n;
+    
+    para n de 1 até 10 passo 1{
+    escreva(t + "x" + n + "=" + (t*n));
+    }
+    
+    n=1;
+    enquanto (n<=10) {
+        n = n+1;
+         escreva(t + "x" + n + "=" + (t*n));
+         }
+}

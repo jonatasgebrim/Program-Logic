@@ -1,0 +1,42 @@
+início {
+    inteiro: valores[5];
+   // inteiro: x;
+    
+    valores[0] = 4;
+    valores[1] = 5;
+    valores[2] = 1;
+    valores[3] = 2;
+    valores[4] = 0;
+    
+    inteiro: i;
+    inteiro: j;
+    inteiro: temp;
+   
+   i= 0; 
+    
+    enquanto (i <  4){
+    j = i + 1;
+    
+    enquanto (j < 5){
+        
+    se (valores [i] > valores [j]){
+    temp = valores[j];
+    
+    valores [j] = valores [i];
+    
+    valores [i] = temp;
+    }
+     j = j + 1; 
+    }
+     i = i + 1;
+    }
+
+    escreva (valores);
+    
+   //para x de 0 até 4 passo 1 
+  // enquanto (x<5) {
+    
+   // escreva(valores [x]);
+   // x = x+1;
+
+}

@@ -1,0 +1,15 @@
+início {
+    inteiro: max;
+    inteiro: min;
+    inteiro: n;
+    
+    leia("mínimo", min);
+    leia("maximo", max);
+    
+       n = min;
+    enquanto (n <= max) {
+        se (n%2==1)
+        escreva(n);
+        n= n+1;
+    }
+}
